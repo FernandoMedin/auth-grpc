@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 import api from "../../services/api";
 import { login } from "../../services/auth";
 
-import { Form, Container } from "./styles";
+import { Form, Container } from "../../styles/pages";
 
 class SignIn extends Component {
   state = {

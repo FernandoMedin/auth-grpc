@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 
 import api from "../../services/api";
 
-import { Form, Container } from "./styles";
+import { Form, Container } from "../../styles/pages";
 
 class SignUp extends Component {
   state = {
